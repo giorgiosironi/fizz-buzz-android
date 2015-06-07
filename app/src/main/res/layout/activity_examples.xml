@@ -6,16 +6,17 @@
 
     <!-- TODO: this should be a number, not a string -->
     <EditText
-        android:id="@+id/edit_message"
+        android:id="@+id/number"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:hint="@string/edit_message" />
+        android:hint="@string/number" />
 
     <Button
         android:text="@string/button_send"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="calculateFizzBuzz" />
 
 
 </LinearLayout>
