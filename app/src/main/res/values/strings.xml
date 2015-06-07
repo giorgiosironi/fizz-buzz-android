@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Fizz Buzz</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="edit_message">Insert a number</string>
+    <string name="button_send">FizzBuzz it!</string>
 </resources>
