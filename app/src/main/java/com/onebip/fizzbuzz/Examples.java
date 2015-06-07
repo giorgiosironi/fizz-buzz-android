@@ -23,8 +23,9 @@ public class Examples extends Activity {
 
     public void calculateFizzBuzz(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText number = (EditText) findViewById(R.id.number);
-        String message = number.getText().toString();
+        EditText numberInput = (EditText) findViewById(R.id.number);
+        Number number = new Number(Integer.parseInt(numberInput.getText().toString()));
+        String message = number.fizzBuzz();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
